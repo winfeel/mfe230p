@@ -1,7 +1,7 @@
 # MFE230P: Data Science for Finance
 ###### MASTERS OF FINANCIAL ENGINEERING \ UC BERKELEY
 
-_Data Science for Finance_ is a survey course on the machine learning models and mathematical optimization methods pertaining to financial engineering and financial data. We will cover convexity, the fundamentals of mathematical optimization, and discuss convex programming using open source software [CVX](http://cvxr.com); unsupervised methods for clustering and dimension-reduction; supervised methods including regression, classification, and kernels; a brief overview of deep learning; portfolio optimization with transaction costs; and robust optimization. Unlike a traditional machine learning course, however, we will give special attention to financial applications—such as index-tracking and sector segmentation—and the challenges faced when working with financial data—such as leptokurtic or asymmetric market returns and non-stationary environments.
+_Data Science for Finance_ is a survey course on the machine learning models and mathematical optimization methods pertaining to financial engineering and financial data. We spend roughly 2/3 of the course discussing machine learning and the remaining 1/3 discussing portfolio optimization. Specifically, we will cover convexity, the fundamentals of mathematical optimization, and discuss convex programming using open source software [CVX](http://cvxpy.org); unsupervised methods for clustering and dimension-reduction; supervised methods including regression, classification, and kernels; a brief overview of deep learning; portfolio optimization with transaction costs and induced sparsity; and robust optimization. Unlike a traditional machine learning course, however, we will give special attention to financial applications—such as index-tracking and sector segmentation—and the challenges faced when working with financial data—such as leptokurtic or asymmetric market returns and non-stationary environments.
 
 The course will consist of semi-weekly lectures, a final examination that constitutes 40% of grade, and four homwework assignments—each constituting 15% of grade—that involve a written component and a programming component to be completed in [Python](https://www.python.org). Accordingly, we will use [Jupyter Notebook](http://jupyter.org) for assignment submissions as they support [LaTeX](https://www.latex-project.org) syntax for inline mathematical expressions (via [MathJax](https://www.mathjax.org)) and programming in Python, including [inline display of figures](http://jupyter-notebook.readthedocs.io/en/latest/notebook.html#plotting).
 
@@ -13,6 +13,7 @@ Required:
 2. Basic knowledge of multivariate statistics (i.e. covariance matrices, multivariate Gaussian distribution, etc.) and multivariate calculus (i.e. [gradient vector](https://en.wikipedia.org/wiki/Gradient#Gradient_as_a_derivative), [Hessian matrix](https://en.wikipedia.org/wiki/Hessian_matrix), and [Taylor approximation](https://en.wikipedia.org/wiki/Taylor_series))
 3. Practical knowledge of finance and economics; measures of risk, random walks, utility maximization, etc.
 4. Basic programming experience with a mathematical or statistical language such as Matlab, R, or Python
+5. Some experience working with time series data (autocorrelation, stationarity, ARIMA, etc.)
 
 Optional, but helpful:
 
@@ -26,21 +27,21 @@ Optional, but helpful:
 The course runs from 5 June 2017 to 26 July 2017 with the final examination scheduled for 2 August 2017. [Professor El Ghaoui](http://www.eecs.berkeley.edu/~elghaoui/) will lecture 1-3PM on Mondays and Wednesdays in F320, holding office hours on Wednesdays 3-4PM in F320. [Mustafa](https://mustafaseisa.com) (assistant) will lead discussion Monday 3-4PM in {TBD} and hold office hours Friday 8-9AM in {TBD}. A detailed course outline follows directly:
 
 Week | 	Lecture No. | Date | Lecture Title | HW given |	HW due
-:---: | :---: | ---: | --- | ---: |	---:
+:---: | :---: | :---: | --- | ---: |	---:
 1 | 01 | 06/05/17 | Optimization models and convexity | |	
-1 |	02 | 06/07/17 | k-means and clusterpath | 1 |
+1 |	02 | 06/07/17 | k-means and [clusterpath](https://www.di.ens.fr/~fbach/419_icmlpaper.pdf) | 1 |
 2 |	03 | 06/12/17 | Covariance estimation and PCA | |
-2 |	04 | 06/14/17 | Generalized low rank models | |
-3 |	05 | 06/19/17 | Feature engineering and Matrix Completion | |
-3 |	06 | 06/21/17 | LS/LAD regression and penalization | 2 | 1
-4 |	07 | 06/26/17 | SVM and classification | |
-4 |	08 | 06/28/17 | Kernels | |
+2 |	04 | 06/14/17 | [Generalized low rank models](https://arxiv.org/abs/1410.0342) and [Matrix Completion](https://statweb.stanford.edu/~candes/papers/MatrixCompletion.pdf) | |
+3 |	05 | 06/19/17 | LS/LAD regression and penalization | |
+3 |	06 | 06/21/17 | SVM and classification | 2 | 1
+4 |	07 | 06/26/17 | Kernel Methods | |
+4 |	08 | 06/28/17 | Feature engineering and encoding | |
 5 |	09 | 07/03/17 | Deep learning and recent developments | |
 5 |10 | 07/05/17 | Time Series Decomposition and Harmonic Regression | 3 | 2
-6 |	11 | 07/10/17 |	Portfolio optimization and Markowitz | |	
-6 | 12 | 07/12/17 |	Minimum variance, sharpe, and beyond | |	
-7 |	13 | 07/17/17 | Incorporating transaction costs | |
-7 | 14 | 07/19/17 | Robust Optimization	| 4	| 3
+6 |	11 | 07/10/17 |	Portfolio optimization: Markowitz, Sharpe, and beyond | |
+6 | 12 | 07/12/17 |	Constraints and [Sparsity on the Simplex](https://people.eecs.berkeley.edu/~elghaoui/Pubs/pilanciNips12.pdf) | |
+7 |	13 | 07/17/17 | Robust Optimization I | |
+7 | 14 | 07/19/17 | Robust Optimization II | 4	| 3
 8 | 15 | 07/24/17 | (Optional) Review I | |
 8 |  16 | 07/26/17 | (Optional) Review II |  | 
 9 | — | 08/02/17 | Final | | 4
@@ -61,4 +62,4 @@ Title | Name | email address
 :---: | :---: | :---:
 Professor | [Laurent El Ghaoui](http://www.eecs.berkeley.edu/~elghaoui/) | `elghaoui` atsign `berkeley` dot `edu`
 Teaching Assistant | [Mustafa S Eisa](http://mustafaseisa.com/) | `m` dot `eisa` atsign `berkeley` dot `edu`
-MFE Program | — | `mfe` at `haas` dot `berkeley` dot `edu`
+MFE Program | — | `mfe` at `haas` dot `berkeley` dot `edu`4
