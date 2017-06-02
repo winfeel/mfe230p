@@ -24,7 +24,7 @@ Optional, but helpful:
 
 ## Course Schedule & Outline
 
-The course runs from 5 June 2017 to 26 July 2017 with the final examination scheduled for 2 August 2017. [Professor El Ghaoui](http://www.eecs.berkeley.edu/~elghaoui/) will lecture 1-3PM on Mondays and Wednesdays in F320, holding office hours on Wednesdays 3-4PM in F320. [Mustafa](https://mustafaseisa.com) (assistant) will lead discussion Monday 3-4PM in {TBD} and hold office hours Friday 8-9AM in {TBD}. A detailed course outline follows directly:
+The course runs from 5 June 2017 to 26 July 2017 with the final examination scheduled for 2 August 2017 from 1-4PM. [Professor El Ghaoui](http://www.eecs.berkeley.edu/~elghaoui/) will lecture 1-3PM on Mondays and Wednesdays in F320 with the exception of 12 June and 14 June, which will be held in C135 and Andersen, respectively. Professor office hours will be held 3-4PM directly following Wednesday lecture. [Mustafa](https://mustafaseisa.com) will lead discussion Monday 3-4PM in F320, with the exception of 12 June, which will be held in the [Innovation Lab](https://haas.berkeley.edu/haas/innovation.html). Assistant office hours will be held Friday 4-5PM in S276. A detailed lecture outline follows directly:
 
 Week | 	Lecture No. | Date | Lecture Title | HW given |	HW due
 :---: | :---: | :---: | --- | ---: |	---:
@@ -46,6 +46,16 @@ Week | 	Lecture No. | Date | Lecture Title | HW given |	HW due
 8 |  16 | 07/26/17 | (Optional) Review II |  | 
 9 | — | 08/02/17 | Final | | 4
 
+## Reference Texts
+
+While a textbook is not required for this course, we provide the following collection of references to supplement the lectures.
+
+* [***Optimization Models.***](http://www.cambridge.org/us/academic/subjects/engineering/control-systems-and-optimization/optimization-models?format=HB&isbn=9781107050877#M70W2lvoAjMyDmly.97) Calafiore and El Ghaoui (2014).
+* [***Elements of Statistical Learning.***](https://statweb.stanford.edu/~tibs/ElemStatLearn/) Hastie, Tibshirani, and Friedman (2009).
+* [***Optimization Methods in Finance.***](https://www.researchgate.net/publication/227390397_Optimization_Methods_in_Finance) Cornuejols and Tütüncü (2007).
+* [***Convex Optimization.***](http://stanford.edu/~boyd/cvxbook/) Boyd and Vandenberghe (2004).
+* [***Deep Learning.***](http://www.deeplearningbook.org) Goodfellow, Bengio, and Courville (2016).
+
 ## Grading Policy
 
 **Homework** is to be submitted electronically through [bCourses](https://bcourses.berkeley.edu) and is due exactly two weeks from the day it is assigned. You may submit homework as late as 11:59PM on the day it is due. If you submit homework past the deadline, your score will be deducted by 5% for each hour of tardiness in excess of the deadline. For example, if you submit your homework anywhere between 12:00AM and 12:59AM, you will be deducted 5%; if you submit between 1:00AM and 1:59AM, you will be deducted 10%; and so forth. Students are encouraged to collaborate in groups of (no more than) four to complete the homework, however each student must submit his or her own unique solution and state their collaborators.
@@ -58,8 +68,8 @@ The grades for homeworks and exams will be changed only if there is a clear erro
 
 ## Contact Information
 
-Title | Name | email address
+Title | Name | Email Address
 :---: | :---: | :---:
 Professor | [Laurent El Ghaoui](http://www.eecs.berkeley.edu/~elghaoui/) | `elghaoui` atsign `berkeley` dot `edu`
-Teaching Assistant | [Mustafa S Eisa](http://mustafaseisa.com/) | `m` dot `eisa` atsign `berkeley` dot `edu`
+Assistant | [Mustafa S Eisa](http://mustafaseisa.com/) | `m` dot `eisa` atsign `berkeley` dot `edu`
 MFE Program | — | `mfe` at `haas` dot `berkeley` dot `edu`4
