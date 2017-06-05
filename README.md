@@ -68,8 +68,10 @@ The grades for homeworks and exams will be changed only if there is a clear erro
 
 ## Contact Information
 
+This term we will be using Piazza for class discussion. Find our class page [here](https://piazza.com/berkeley/summer2017/mfe230p/home). You may also reach us via email or office hours:
+
 Title | Name | Email Address | Office Hour
 :---: | :---: | :---: | :---:
-Professor | [Laurent El Ghaoui](http://www.eecs.berkeley.edu/~elghaoui/) | `elghaoui@berkeley.edu` | Wednesdays 3-4PM in F320
-Assistant | [Mustafa S Eisa](http://mustafaseisa.com/) | `m.eisa@berkeley.edu` | Mondays 3-4PM in S276
-MFE Program | — | `mfe@haas.berkeley.edu` | –
+Professor | [Laurent El Ghaoui](http://www.eecs.berkeley.edu/~elghaoui/) | `elghaoui@berkeley.edu` | Wednesday 3-4PM in F320
+Assistant | [Mustafa S Eisa](http://mustafaseisa.com/) | `m.eisa@berkeley.edu` | Friday 4-5PM in S276
+MFE Program | — | `mfe@haas.berkeley.edu` | —
