@@ -24,7 +24,7 @@ Optional, but helpful:
 
 ## Course Schedule & Outline
 
-The course runs from 5 June 2017 to 26 July 2017 with the final examination scheduled for 2 August 2017 from 1-4PM. [Professor El Ghaoui](http://www.eecs.berkeley.edu/~elghaoui/) will lecture 1-3PM on Mondays and Wednesdays in F320 with the exception of 12 June and 14 June, which will be held in C135 and Andersen, respectively. Professor office hours will be held 3-4PM directly following Wednesday lecture. [Mustafa](https://mustafaseisa.com) will lead discussion Monday 3-4PM in F320, with the exception of 12 June, which will be held in the [Innovation Lab](https://haas.berkeley.edu/haas/innovation.html). Assistant office hours will be held Friday 4-5PM in S276. A detailed lecture outline follows directly:
+The course runs from 5 June 2017 to 26 July 2017 with the final examination scheduled for 2 August 2017 from 1-4PM. [Professor El Ghaoui](http://www.eecs.berkeley.edu/~elghaoui/) will lecture 1-3PM on Mondays and Wednesdays in F320 with the exception of 12 June and 14 June, which will be held in C135 and Andersen, respectively. [Mustafa](https://mustafaseisa.com) will lead discussion Monday 3-4PM in F320, with the exception of 12 June, which will be held in the [Innovation Lab](https://haas.berkeley.edu/haas/innovation.html). A detailed lecture outline follows directly:
 
 Week | 	Lecture No. | Date | Lecture Title | HW given |	HW due
 :---: | :---: | :---: | --- | ---: |	---:
@@ -68,8 +68,8 @@ The grades for homeworks and exams will be changed only if there is a clear erro
 
 ## Contact Information
 
-Title | Name | Email Address
-:---: | :---: | :---:
-Professor | [Laurent El Ghaoui](http://www.eecs.berkeley.edu/~elghaoui/) | `elghaoui@berkeley.edu`
-Assistant | [Mustafa S Eisa](http://mustafaseisa.com/) | `m.eisa@berkeley.edu`
-MFE Program | — | `mfe@haas.berkeley.edu`
+Title | Name | Email Address | Office Hour
+:---: | :---: | :---: | :---:
+Professor | [Laurent El Ghaoui](http://www.eecs.berkeley.edu/~elghaoui/) | `elghaoui@berkeley.edu` | Wednesdays 3-4PM in F320
+Assistant | [Mustafa S Eisa](http://mustafaseisa.com/) | `m.eisa@berkeley.edu` | Mondays 3-4PM in S276
+MFE Program | — | `mfe@haas.berkeley.edu` | –
