@@ -1,7 +1,7 @@
 # MFE230P: Data Science for Finance
 ###### MASTERS OF FINANCIAL ENGINEERING \ UC BERKELEY
 
-_Data Science for Finance_ is a survey course on the machine learning models and mathematical optimization methods pertaining to financial engineering and financial data. We spend roughly 2/3 of the course discussing machine learning and the remaining 1/3 discussing portfolio optimization. Specifically, we will cover convexity, the fundamentals of mathematical optimization, and discuss convex programming using open source software [CVX](http://cvxpy.org); unsupervised methods for clustering and dimension-reduction; supervised methods including regression, classification, and kernels; a brief overview of deep learning; portfolio optimization with transaction costs and induced sparsity; and robust optimization. Unlike a traditional machine learning course, however, we will give special attention to financial applications—such as index-tracking and sector segmentation—and the challenges faced when working with financial data—such as leptokurtic or asymmetric market returns and non-stationary environments.
+_Data Science for Finance_ is a survey course on the machine learning models and mathematical optimization methods pertaining to financial engineering and financial data. We spend roughly 2/3 of the course discussing machine learning and the remaining 1/3 discussing portfolio optimization. Specifically, we will cover convexity, the fundamentals of mathematical optimization, and discuss convex programming using open source software [CVX](http://cvxpy.org); unsupervised methods for clustering and dimension-reduction as well as kernels; supervised methods including regression, classification, and their kernel variants; a brief overview of deep learning; portfolio optimization with transaction costs and induced sparsity; and robust optimization. Unlike a traditional machine learning course, however, we will give special attention to financial applications—such as index-tracking and sector segmentation—and the challenges faced when working with financial data—such as leptokurtic or asymmetric market returns and non-stationary environments.
 
 The course will consist of semi-weekly lectures, a final examination that constitutes 40% of grade, and four homwework assignments—each constituting 15% of grade—that involve a written component and a programming component to be completed in [Python](https://www.python.org). Accordingly, we will use [Jupyter Notebook](http://jupyter.org) for assignment submissions as they support [LaTeX](https://www.latex-project.org) syntax for inline mathematical expressions (via [MathJax](https://www.mathjax.org)) and programming in Python, including [inline display of figures](http://jupyter-notebook.readthedocs.io/en/latest/notebook.html#plotting).
 
@@ -50,11 +50,11 @@ Week | 	Lecture No. | Date | Lecture Title | HW given |	HW due
 
 While a textbook is not required for this course, we provide the following collection of references to supplement the lectures.
 
-* [***Optimization Models.***](http://www.cambridge.org/us/academic/subjects/engineering/control-systems-and-optimization/optimization-models?format=HB&isbn=9781107050877#M70W2lvoAjMyDmly.97) Calafiore and El Ghaoui (2014).
-* [***Elements of Statistical Learning.***](https://statweb.stanford.edu/~tibs/ElemStatLearn/) Hastie, Tibshirani, and Friedman (2009).
-* [***Optimization Methods in Finance.***](https://www.researchgate.net/publication/227390397_Optimization_Methods_in_Finance) Cornuejols and Tütüncü (2007).
-* [***Convex Optimization.***](http://stanford.edu/~boyd/cvxbook/) Boyd and Vandenberghe (2004).
-* [***Deep Learning.***](http://www.deeplearningbook.org) Goodfellow, Bengio, and Courville (2016).
+* [**Optimization Models.**](http://www.cambridge.org/us/academic/subjects/engineering/control-systems-and-optimization/optimization-models?format=HB&isbn=9781107050877#M70W2lvoAjMyDmly.97) Calafiore and El Ghaoui (2014).
+* [**Elements of Statistical Learning.**](https://statweb.stanford.edu/~tibs/ElemStatLearn/) Hastie, Tibshirani, and Friedman (2009).
+* [**Optimization Methods in Finance.**](https://www.researchgate.net/publication/227390397_Optimization_Methods_in_Finance) Cornuejols and Tütüncü (2007).
+* [**Convex Optimization.**](http://stanford.edu/~boyd/cvxbook/) Boyd and Vandenberghe (2004).
+* [**Deep Learning.**](http://www.deeplearningbook.org) Goodfellow, Bengio, and Courville (2016).
 
 ## Grading Policy
 
@@ -70,6 +70,6 @@ The grades for homeworks and exams will be changed only if there is a clear erro
 
 Title | Name | Email Address
 :---: | :---: | :---:
-Professor | [Laurent El Ghaoui](http://www.eecs.berkeley.edu/~elghaoui/) | `elghaoui` atsign `berkeley` dot `edu`
-Assistant | [Mustafa S Eisa](http://mustafaseisa.com/) | `m` dot `eisa` atsign `berkeley` dot `edu`
-MFE Program | — | `mfe` at `haas` dot `berkeley` dot `edu`4
+Professor | [Laurent El Ghaoui](http://www.eecs.berkeley.edu/~elghaoui/) | `elghaoui@berkeley.edu`
+Assistant | [Mustafa S Eisa](http://mustafaseisa.com/) | `m.eisa@berkeley.edu`
+MFE Program | — | `mfe@haas.berkeley.edu`
