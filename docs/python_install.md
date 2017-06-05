@@ -2,7 +2,7 @@
 
 We will install and manage [Python 3](https://www.python.org) via [Minconda](https://conda.io/miniconda.html), a lightweight version of the famous [Anaconda](https://www.continuum.io/downloads) package manager. The following tutorial assumes you are operating on a Macintosh computer.
 
-### 1. Install Minconda
+### 1. Install Miniconda
 
 First, open Terminal and execute the following codeblock to download and install Miniconda
 
@@ -11,18 +11,20 @@ cd ~/Downloads
 curl "https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh" -o "miniconda3.sh"
 
 bash miniconda3.sh -b
-
+printf '\n# added by Miniconda3 Installer \nexport PATH="~/miniconda3/bin:$PATH"' >> ~/.bash_profile
 rm -f miniconda.sh
+
+source ~/.bash_profile
 ```
 
-The `-b` flag will install Miniconda with all the default settings.
+The `-b` flag will silently install Miniconda in batch mode.
 
 ### 2. Install Python Packages
 
 Executing the following codeblock will install a set of useful Python packages needed for completing the assignments and for scientific computing in general.
 
 ```
-conda install -c cvxgrp cvxpy numpy scipy pandas matplotlib jupyter -y
+conda install -c cvxgrp cvxpy numpy scipy pandas matplotlib jupyter git -y
 conda update --all -y
 conda clean --all -y
 ```

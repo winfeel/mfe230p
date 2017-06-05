@@ -24,7 +24,7 @@ in terminal.
 
 ### 3. Store Git Prefix in Bash Profile
 
-Execute the following line in terminal to create an alias `mfe230Access` for access key verification when communicating with the repository 
+Execute the following code block in terminal to create an alias `mfe230Access` for access key verification when communicating with the repository 
 
 ```
 echo 'alias mfe230pAccess="GIT_SSH_COMMAND='ssh -i ~/.ssh/mfeStudent -F /dev/null'"' >> ~/.bash_profile
