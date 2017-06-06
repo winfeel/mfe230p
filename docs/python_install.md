@@ -7,14 +7,14 @@ We will install and manage [Python 3](https://www.python.org) via [Minconda](htt
 First, open Terminal and execute the following codeblock to download and install Miniconda
 
 ```
-cd ~/Downloads
+cd $HOME/Downloads
 curl "https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh" -o "miniconda3.sh"
 
 bash miniconda3.sh -b
-printf '\n# added by Miniconda3 Installer \nexport PATH="~/miniconda3/bin:$PATH"' >> ~/.bash_profile
+printf '\n# added by Miniconda3 Installer \nexport PATH="$HOME/miniconda3/bin:$PATH"' >> $HOME/.bash_profile
 rm -f miniconda.sh
 
-source ~/.bash_profile
+source $HOME/.bash_profile
 ```
 
 The `-b` flag will silently install Miniconda in batch mode.

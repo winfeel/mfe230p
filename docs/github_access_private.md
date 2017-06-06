@@ -1,4 +1,4 @@
-# Accessing the Course Github
+# Accessing the Course Private Github
 
 Assignments, assignment solutions, lectures, and other course materials will be maintained and periodically updated on the course's [GitHub](https://github.com) repository. Due to University policy, the repository cannot be shared publically and thus special measures must be taken to grant students access. This document is a brief step-by-step guide on how to obtain access.
 
@@ -14,11 +14,11 @@ on [terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)). Next, create a pe
 
 Open [terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) and execute the following line
 
-`curl "https://s3-us-west-2.amazonaws.com/mfe230p/mfeStudent" -o "~/.ssh/mfeStudent"`
+`sudo curl "https://s3-us-west-2.amazonaws.com/mfe230p/mfeStudent" -o "$HOME/.ssh/mfeStudent"`
 
-which will download `mfeStudent`, a read-only access key for the mfe230p repository. This key will be stored in your user SSH directory. Next, change the user permissions on the access key by executing
+which will download `mfeStudent`, a read-only access key for the mfe230p repository. This key should be stored in your user SSH directory. Next, change the user permissions on the access key by executing
 
-`chmod 400 ~/.ssh/mfeStudent`
+`chmod 400 $HOME/.ssh/mfeStudent`
 
 in terminal.
 
@@ -27,12 +27,12 @@ in terminal.
 Execute the following code block in terminal to create an alias `mfe230Access` for access key verification when communicating with the repository 
 
 ```
-echo 'alias mfe230pAccess="GIT_SSH_COMMAND='ssh -i ~/.ssh/mfeStudent -F /dev/null'"' >> ~/.bash_profile
+printf '\nalias mfe230pAccess="GIT_SSH_COMMAND="ssh -i ~/.ssh/mfeStudent -F /dev/null""' >> $HOME/.bash_profile
 
-source ~/.bash_profile
+source $HOME/.bash_profile
 ```
 
-To verify, execute `echo $mfe230pAccess` which should print `GIT_SSH_COMMAND='ssh -i ~/.ssh/mfeStudent -F /dev/null'` to command line.
+To verify, execute `echo $mfe230pAccess` which should print `GIT_SSH_COMMAND='ssh -i $HOME/.ssh/mfeStudent -F /dev/null'` to command line.
 
 ### 4. Communicate with the Repository
 
