@@ -27,12 +27,12 @@ in terminal.
 Execute the following code block in terminal to create an alias `mfe230Access` for access key verification when communicating with the repository 
 
 ```
-printf '\nalias mfe230pAccess="GIT_SSH_COMMAND="ssh -i ~/.ssh/mfeStudent -F /dev/null""' >> $HOME/.bash_profile
+printf "\nalias mfe230pAccess=\"GIT_SSH_COMMAND='ssh -i $HOME/.ssh/mfeStudent -F /dev/null'\"" >> $HOME/.bash_profile
 
 source $HOME/.bash_profile
 ```
 
-To verify, execute `echo $mfe230pAccess` which should print `GIT_SSH_COMMAND='ssh -i $HOME/.ssh/mfeStudent -F /dev/null'` to command line.
+To verify, execute `alias mfe230pAccess` which should print something like `alias mfe230pAccess='GIT_SSH_COMMAND='\''ssh -i...` to command line.
 
 ### 4. Communicate with the Repository
 
@@ -44,6 +44,8 @@ mfe230pAccess git <arguments>
 
 For example, to clone the repository, run
 
-`mfe230pAccess git clone git@github.com:mustafaseisa/mfe230p.git`
+```
+mfe230pAccess git clone git@github.com:mustafaseisa/mfe230p.git
+```
 
 and enter the passphrase when prompted.
